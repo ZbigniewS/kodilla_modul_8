@@ -1,5 +1,6 @@
 // plik scripts.js
 
 var name = prompt('Wpisz swoje imię');
-alert('Witaj, ' + name);
-console.log('Witaj, ' + name);
+var country = prompt('Wpisz kraj')
+alert('Witaj, ' + name + ' twój kraj to ' +  country);
+console.log('Witaj, ' + name + ' twój kraj to ' +  country);
